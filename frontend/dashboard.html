@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библиотечный портал - Личный кабинет</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">БИБЛИОТЕКА</h1>
+            <p class="subtitle">Личный кабинет читателя</p>
+        </div>
+        
+        <div class="form-container">
+            <div class="dashboard-content">
+                <h2>Добро пожаловать, читатель</h2>
+                
+                <div class="user-info">
+                    <p>📚 Ваш ID в системе: <strong id="userIdDisplay"></strong></p>
+                    <p>👤 Имя пользователя: <strong id="usernameDisplay">Загрузка...</strong></p>
+                    <p>📧 Электронная почта: <strong id="emailDisplay">Загрузка...</strong></p>
+                    <p>✅ Вы успешно зарегистрированы</p>
+                    <p>📖 Теперь вам доступен каталог книг</p>
+                </div>
+                
+                <div class="welcome-box">
+                    <h3 style="color: #8b4513; margin-bottom: 15px;">Информация о доступе</h3>
+                    <p>Эта страница доступна только зарегистрированным читателям библиотеки. Здесь вы можете управлять своим профилем и просматривать историю чтения.</p>
+                    <p>Мир знаний открыт для вас...</p>
+                </div>
+                
+                <button onclick="logout()" class="btn logout-btn">Выйти из системы</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="javascript/api.js"></script>
+    <script src="javascript/auth.js"></script>
+    <script src="javascript/utils.js"></script>
+    <script src="javascript/dashboard.js"></script>
+</body>
+</html>
