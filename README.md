@@ -127,9 +127,6 @@ SQLite с таблицей `users`:
 - `password_hash` (TEXT)
 - `created_at` (TIMESTAMP)
 
-## 📄 Лицензия
-
-Проект предназначен для образовательных целей.
 
 ---
 
